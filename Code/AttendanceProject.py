@@ -22,3 +22,4 @@ for cl in myList:
 print(classNames)
 
 ## CONTNUAR EN MINUTO 25:32
+print(os.path.splitext("Elon Musk.jpg")[:])

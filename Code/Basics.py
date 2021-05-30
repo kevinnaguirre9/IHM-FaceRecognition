@@ -3,11 +3,11 @@ import numpy as np
 import face_recognition
 
 ## Load image and convert it into rgb
-imgElon = face_recognition.load_image_file('ImagesBasic/Elon-Musk.jpg')
+imgElon = face_recognition.load_image_file('ImagesBasic/elena-test.jpg')
 imgElon = cv2.cvtColor(imgElon, cv2.COLOR_BGR2RGB)
 
 ## Do the same with test image
-imgTest = face_recognition.load_image_file('ImagesBasic/elon-test.jpg')
+imgTest = face_recognition.load_image_file('ImagesBasic/sergio-test.jpg')
 imgTest = cv2.cvtColor(imgTest, cv2.COLOR_BGR2RGB)
 
 
